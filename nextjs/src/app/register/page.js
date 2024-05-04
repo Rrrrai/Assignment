@@ -12,7 +12,7 @@ export default function App() {
       <Input className="m-2" type="password" label="Password" />
       <Input className="m-2" label="Full Name" />
       <Input className="m-2"  label="Address" />
-      <Button radius="full" className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg m-2">
+      <Button as={Link} href="/" radius="full" className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg m-2">
       Register
     </Button>
     <br/>
